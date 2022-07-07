@@ -32,6 +32,8 @@ car1 = Car("BMW", 4)
 ```
 
 **Result:**
+```
 save_to_cache: BMW
 Car BMW is initiated
 save_to_db: BMW
+```
