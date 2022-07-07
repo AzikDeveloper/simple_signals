@@ -25,3 +25,9 @@ pre_init.connect(save_car_to_cache, sender=Car)
 post_init.connect(save_car_to_db, sender=Car)
 
 car1 = Car("BMW", 4)
+
+"""
+save_to_cache: BMW
+Car BMW is initiated
+save_to_db: BMW
+"""
